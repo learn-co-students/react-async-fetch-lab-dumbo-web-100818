@@ -4,14 +4,14 @@ class ExampleComponent extends Component {
 
   render() {
     return (
-      <button onClick={this.handleClick}>
+      <button >
         I am a button
       </button>
     )
   }
 
   handleClick(event) {
-    console.log(event.target.innerHTML)
+    //console.log(event.target.innerHTML)
   }
 
 }
